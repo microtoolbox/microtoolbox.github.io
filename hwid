@@ -1,1 +1,1 @@
-& ([ScriptBlock]::Create((irm https://massgrave.dev/get))) /HWID /Ohook
+& ([ScriptBlock]::Create((irm https://massgrave.dev/get))) /HWID /KMS38 /KMS-ActAndRenewalTask /Ohook
