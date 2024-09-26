@@ -3,7 +3,7 @@
 
 $DownloadURL = 'https://github.com/AveYo/MediaCreationTool.bat/raw/main/MediaCreationTool.bat'
 
-$FilePath = "$env:TEMP\auto 11 MediaCreationTool.bat"
+$FilePath = "$env:TEMP\auto 23H2 MediaCreationTool.bat"
 
 try {
     Invoke-WebRequest -Uri $DownloadURL -UseBasicParsing -OutFile $FilePath -Headers @{"Cache-Control"="no-cache"}
